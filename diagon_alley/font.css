@@ -1,9 +1,9 @@
-font-face {
+@font-face {
     font-family: neumann;
     src: url("fonts/neumann/td-neumann.otf");
 }
 
-font-face {
+@font-face {
     font-family: Avara;
     src: url("fonts/avara/Avara.otf");
 }
