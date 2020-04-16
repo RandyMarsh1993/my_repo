@@ -289,7 +289,6 @@ body {
     margin-left: 26px;
 }
 
-
 .background-image {
     display: inline-block;
     width: 270px;
@@ -512,7 +511,7 @@ body {
 .contact-text {
     color: #212121;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     width: 231px;
 }
 
@@ -536,6 +535,10 @@ body {
 }
 
 .left-list {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
     float: left;
     list-style: none;
 }
@@ -543,6 +546,10 @@ body {
 .info-right-list {
     display: inline-block;
     margin-left: 100px;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .right-list {
@@ -578,15 +585,31 @@ body {
     margin-bottom: 26px;
 }
 
-.email {
-    width: 370px;
-    height: 48px;
-    border: 1px solid #d9dee1;
-    background-color: #ffffff;
+.email-line {
     color: #6c6c6c;
     font-size: 14px;
     font-weight: 300;
     padding-left: 19px;
+    width: 370px;
+    height: 48px;
+    border: 1px solid #d9dee1;
+}
+
+.email-input {
+    border: none;
+    outline: none;
+    width: 320px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.submit {
+    width: 22px;
+    height: 22px;
+    border: none;
+    background-image: url(img/paper-plane-solid.svg);
+    opacity: 0.5;
+    display: inline-block;
 }
 
 .circle-link {
@@ -595,6 +618,9 @@ body {
     height: 28px;
     border-radius: 50%;
     background-color: #6c6c6c;
+    margin: 2px;
+    margin-bottom: 10px;
+    line-height: 31px;
 }
 
 .copyright {
