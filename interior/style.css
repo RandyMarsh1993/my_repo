@@ -35,6 +35,7 @@ body {
 
 .menu {
     float: right;
+    margin-right: 69px;
 }
 
 .menu-list {
@@ -53,19 +54,12 @@ body {
 
 .menu-link:hover {
     color: #212121;
-    border-bottom: 1px solid #212121;
+    border-bottom: 1px solid #8c8c8c;
 }
 
 .menu-link:active {
     color: #000000;
     border-bottom: none;
-}
-
-.menu-link-active {
-    color: #212121;
-    font-weight: 700;
-    letter-spacing: 1.4px;
-    border-bottom: 3px solid #212121;
 }
 
 .slider-text {
@@ -115,11 +109,11 @@ body {
 }
 
 .button:hover {
-    box-shadow: 2px 4px 10px 2px rgba(33, 33, 33, 0.35);
+    box-shadow: 1px 3px 8px 2px rgba(38, 38, 38, 0.38);
 }
 
 .button:active {
-    box-shadow: 1px 3px 8px 1px rgba(50, 50, 50, 0.7);
+    box-shadow: none;
 }
 
 .navigation {
@@ -163,14 +157,25 @@ body {
 }
 
 .featured {
-    color: #212121;
+    color: #6c6c6c;
     font-size: 36px;
     font-weight: 800;
     text-decoration: none;
-    padding: 0px 20px 19px 9px;
-    border-bottom: 3px solid #212121;
+    padding: 0px 20px 21px 9px;
+    border-bottom: 1px solid #6c6c6c;
     display: block;
     float: left;
+}
+.featured:hover {
+    color: #212121;
+    border-bottom: 3px solid #212121;
+    padding-bottom: 19px;
+}
+
+.featured:active {
+    color: #6c6c6c;
+    padding-bottom: 19px;
+    border-bottom: 3px solid #6c6c6c;
 }
 
 .new {
@@ -185,7 +190,15 @@ body {
 }
 
 .new:hover {
+    padding-bottom: 19px;
+    border-bottom: 3px solid #212121;
     color: #212121;
+}
+
+.new:active {
+    color: #6c6c6c;
+    padding-bottom: 19px;
+    border-bottom: 3px solid #6c6c6c;
 }
 
 .explore-all {
@@ -485,6 +498,7 @@ body {
     margin-right: 5px;
 }
 
+
 .footer {
     height: 384px;
     background-color: background-color: #f7f7f7;
@@ -608,8 +622,17 @@ body {
     height: 22px;
     border: none;
     background-image: url(img/paper-plane-solid.svg);
-    opacity: 0.5;
+    opacity: 0.4;
     display: inline-block;
+    cursor: pointer;
+}
+
+.submit:hover {
+    opacity: 0.6;
+}
+
+.submit:active {
+    opacity: 0.8;
 }
 
 .circle-link {
@@ -621,6 +644,10 @@ body {
     margin: 2px;
     margin-bottom: 10px;
     line-height: 31px;
+}
+
+.circle-link:hover {
+    background-color: #212121;
 }
 
 .copyright {
@@ -640,4 +667,315 @@ body {
     width: 1170px;
     text-align: right;
     bottom: 39px;
+}
+
+.contact-header {
+    height: 360px;
+    background-image: url(img/hero-back.svg);
+}
+
+.contact-h1 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    margin-top: 171px;
+}
+
+.contact-card {
+    width: 370px;
+    height: 370px;
+    float: left;
+    margin-top: 71px;
+    margin-right: 30px;
+    border: 0.2px solid #ccc;
+    box-sizing: border-box;
+}
+
+.contact-right-card {
+    margin-right: 0px;
+}
+
+.marker-image {
+    margin-top: 48px;
+    margin-left: 166px;
+}
+
+.contact-h3 {
+    text-align: center;
+    margin-top: 28px;
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contact-phone,
+.contact-email,
+.contact-adress {
+    text-align: center;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 19px;
+}
+
+.phone-number,
+.email-adress {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.adress-info {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.contact-content {
+    margin-bottom: 122px;
+}
+
+.contact-footer {
+    background-color: #f7f7f7;
+}
+
+.product-header {
+    height: 360px;
+    background-image: url(img/hero-back.svg);
+}
+
+.product-h1 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    margin-top: 195px;
+}
+
+.product-nav-menu {
+    margin-top: 71px;
+}
+
+.product-list {
+    list-style: none;
+}
+
+.product-menu-link {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: left;
+    padding-right: 40px;
+    padding-bottom: 21px;
+    padding-left: 7px;
+    border-bottom: 1px solid #6c6c6c;
+}
+
+.product-menu-link:hover {
+    color: #212121;
+    padding-bottom: 19px;
+    border-bottom: 3px solid #212121;
+}
+
+.product-menu-link:active {
+    color: #6c6c6c;
+    padding-bottom: 19px;
+    border-bottom: 3px solid #6c6c6c;
+}
+
+.all-product-pages {
+    margin-top: 50px;
+    margin-bottom: 71px;
+}
+
+.product-page-link {
+    width: 370px;
+    height: 370px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.right-product-link {
+    margin-right: 0px;
+}
+
+.refresh {
+    margin-left: 574px;
+}
+
+.promo-line {
+    margin-top: 174px;
+}
+
+.product-footer {
+    background-color: #f7f7f7;
+}
+
+.deals-header {
+    height: 119px;
+}
+
+.deals-navigation {
+    height: 70px;
+    background-color: #f4f4f4;
+}
+
+.deals-menu {
+    text-align: center;
+    margin-left: 360px;
+}
+
+.deals-nav-list {
+    list-style: none;
+    float: left;
+}
+
+.deals-nav-link {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    text-decoration: none;
+    margin-right: 32px;
+    line-height: 70px;
+}
+
+.deals-nav-link:hover {
+    color: #212121;
+}
+
+.deals-content {
+    margin-top: 72px;
+}
+
+.content-left-side {
+    display: table-cell;
+    width: 570px;
+    float: left;
+    clear: both;
+}
+
+.color-variants {
+    padding-top: 10px;
+    padding-left: 150px;
+}
+
+.color-var {
+    margin-right: 10px;
+}
+
+.content-right-side {
+    display: table-cell;
+    padding-top: 47px;
+    padding-left: 56px;
+}
+
+.product-deal-name {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hot-deal {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 23px;
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+.price {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.amount {
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+.deal-button {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 35px;
+    background-color: #f44336;
+    width: 510px;
+    height: 71px;
+    line-height: 71px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 4.4px;
+    margin-bottom: 49px;
+    margin-top: 31px;
+}
+
+.deal-button:hover {
+    box-shadow: 2px 3px 6px 2px rgba(35, 35, 35, 0.5);
+}
+
+.deal-button:active {
+    box-shadow: none;
+}
+
+.deal-h5 {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    margin-left: 5px;
+}
+
+.right-side-text {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.deals-related-products {
+    margin-top: 245px;
+    margin-bottom: 120px;
+}
+
+.related-products {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.explore-deals {
+    margin-top: -25px;
+}
+
+.related-products-cards {
+    margin-top: 68px;
+}
+
+.related-card {
+    margin-right: 30px;
+}
+
+.right-card {
+    margin-right: 0px;
+}
+
+.deals-footer {
+    background-color: #f7f7f7;
 }
